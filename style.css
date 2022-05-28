@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
     font-family: roboto, sans-serif;
     font-size: large;
-    background-color: white;
+    background-image: linear-gradient(to top, #876e69, #684841, #63453e);
 }
 .logo {
     display: flex;
@@ -34,11 +34,50 @@ body{
     height: 75px;
     width: 75px;
     border-radius: 100%;
-    flex: 0;
 }
 
 .navigation {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.entry-quote{
+    flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(100, 100, 100, 85%);
+    border-radius: 12px;
+    margin: 30px;
+    padding: 3px 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #876e69, #684841, #54342d);
+    padding-bottom: 30px;
+}
+.menu .menu-item{
+    display: block;
+    background-color: rgba(100, 100, 100, 85%);
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+}
+.menu .menu-item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 0;
+}
+.menu .menu-item p{
+    margin: 0;
+}
+.menu .title img{
+    height: 100px;
+    width: 100px;
 }
