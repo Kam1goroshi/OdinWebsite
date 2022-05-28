@@ -18,12 +18,49 @@ body{
 }
 
 .header-background{
-    /* Set a specific height */
     background-image: url("images/cafe2.jpg");
     min-height: 500px;
     width: 100%;
 }
 
+/*Cheapy fix for blank space that was created bettween the
+ intro and the menu on thin screens. After a point the issue is
+ still created. Check it on Google dev tools */
+@media screen and (max-width: 593px){
+    .header-background{
+        min-height: 550px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .header-background{
+        min-height: 600px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header-background{
+        min-height: 700px;
+    }
+}
+
+@media screen and (max-width: 352px){
+    .header-background{
+        min-height: 750px;
+    }
+}
+
+@media screen and (max-width: 338px){
+    .header-background{
+        min-height: 800px;
+    }
+}
+
+@media screen and (max-width: 304px){
+    .header-background{
+        min-height: 900px;
+    }
+}
 .paralax-background{
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
