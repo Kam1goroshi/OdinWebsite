@@ -152,3 +152,20 @@ body{
     background-color: rgba(100, 100, 100, 75%);
     border-radius: 20px;
 }
+
+footer{
+    display: flex;
+}
+footer p{
+    display: block;
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+    color: darkgrey;
+    background-image: linear-gradient(to top, #2b1814, #3d251f, #54342d);
+}
