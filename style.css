@@ -94,3 +94,20 @@ body{
     height: 100px;
     width: 100px;
 }
+
+.bottom-quote{
+    display: flex;
+    background-image: url("images/cafe3.png");
+    min-height: 300px;
+    margin-top: 0px;
+    align-items: center;
+}
+.bottom-quote p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    margin-inline: 20px;
+    color: white;
+    background-color: rgba(100, 100, 100, 75%);
+    border-radius: 20px;
+}
