@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+    font-family: roboto, sans-serif;
+    font-size: large;
+    background-color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-background{
+    /* Set a specific height */
+    background-image: url("images/cafe2.jpg");
+    min-height: 500px;
+    width: 100%;
+}
+
+.paralax-background{
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo>img {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    flex: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
