@@ -61,6 +61,11 @@ body{
     background-image: linear-gradient(to bottom, #876e69, #684841, #54342d);
     padding-bottom: 30px;
 }
+.menu-items{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
 .menu .menu-item{
     display: block;
     background-color: rgba(100, 100, 100, 85%);
