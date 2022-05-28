@@ -155,10 +155,12 @@ body{
 
 footer{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to top, #2b1814, #3d251f, #54342d);
 }
 footer p{
     display: block;
-    flex: 1;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding-top: 10px;
@@ -167,5 +169,4 @@ footer p{
     padding-right: 15px;
     text-align: right;
     color: darkgrey;
-    background-image: linear-gradient(to top, #2b1814, #3d251f, #54342d);
 }
